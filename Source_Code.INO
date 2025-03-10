@@ -7,6 +7,7 @@ const int ledPin = 13;        // Connect an LED (with resistor) to digital pin 1
 
 DHT dht(DHTPIN, DHTTYPE); // Initialize DHT sensor
 
+//I've changed the loop statement in this code to show real time data on a webpage //
 
 const int pirSensorPin = 7; // Connect the PIR sensor output to digital pin 7
   // Connect an LED (with resistor) to digital pin 13
